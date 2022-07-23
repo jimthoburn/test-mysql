@@ -5,7 +5,3 @@
 # `backups/install-mysqldump.sh`
 
 FROM mysql:8.0.29
-
-# RUN usermod -s / www-data
-# RUN chown www-data:www-data /
-USER www-data:www-data
