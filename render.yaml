@@ -1,7 +1,7 @@
 # Change “myappname” throughout this file, to the name of your application.
 services:
 - type: pserv
-  name: myappname-mysql
+  name: test-mysql
   env: docker
   plan: starter
   region: oregon
