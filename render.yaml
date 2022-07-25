@@ -6,9 +6,8 @@ services:
   plan: starter
   region: oregon
   autoDeploy: false
-  rootDir: mysql
-  dockerfilePath: ./Dockerfile
-  dockerContext: ./
+  dockerfilePath: ./mysql/Dockerfile
+  dockerContext: ./mysql/
   disk:
     name: mysql
     mountPath: /var/lib/mysql
